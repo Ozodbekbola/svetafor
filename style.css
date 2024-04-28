@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: rgb(148, 19, 19);
+    animation-iteration-count: infinite;
+    
+}
+
+.bola{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 100%;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation-name:box-1;
+    animation-duration: 2s;
+    
+
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation-name:box-2;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation-name:box-3;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+@keyframes box-1{
+    from{
+      
+    }
+    to{
+        background-color: red;
+    }
+}
+
+
+@keyframes box-2{
+    from{
+       
+    }
+    to{
+        background-color: yellow;
+    }
+}
+
+@keyframes box-3{
+    from{
+      
+    }
+    to{
+        background-color:greenyellow;
+    }
+}
